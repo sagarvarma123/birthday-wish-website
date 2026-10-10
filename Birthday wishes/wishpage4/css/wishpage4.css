@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* net notice */
+
+#net-notice {
+  width: 100%;
+  height: auto;
+  margin: 200px auto;
+  display: none;
+}
+
+#net-alert-txt {
+  font-family: sans-serif;
+  color: #000;
+  font-size: 38px;
+  text-align: center;
+}
+/* end net notice code */
+
+#container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../image/butterflies-bgg22.gif");
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+
+#wishpage4-bg-box {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../image/giphy\ \(2\).gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#i-love-u-box {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../image/stars-changing-colors-bg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#butterflyy {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../image/bd-girl-heart-pic.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+
+#butterfly-right-side {
+  width: 100%;
+  height: 100%;
+}
+
+#vincii {
+  width: 380px;
+  height: 350px;
+  margin: 12% 35%;
+  opacity: 0.8;
+  filter: drop-shadow(0 0 15px pink);
+}
+
+#butterflyy2,
+#butterflyy22 {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../image/bd-girl-heart-pic.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+#butterflyy3 {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+#birthday-girl-beautyful-pic2 {
+  width: 220px;
+  height: 380px;
+  margin: 12% 35%;
+  filter: drop-shadow(0 0 15px pink);
+}
+
+#butterflyy4 {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: -120px;
+  left: 120px;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+#birthday-girl-beautyful-pic3 {
+  width: 210px;
+  height: 280px;
+  margin: 12% 35%;
+  filter: drop-shadow(0 0 15px pink);
+}
+
+#right-side-butterfly {
+  width: 27%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#vincii-wish-txt-box {
+  width: 0%;
+  height: auto;
+  box-shadow: 0 0 10px #ddd;
+  padding: 10px;
+  margin: -190px 100px;
+  background-image: url("../../image/stars-blinking-bg.gif");
+  border-left: 15px groove #d6336c;
+  border-right: 15px groove #d6336c;
+  overflow: hidden;
+  animation: slide 5s forwards;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  25% {
+    width: 15%;
+  }
+
+  50% {
+    width: 30%;
+  }
+
+  75% {
+    width: 45%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@-moz-keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  25% {
+    width: 15%;
+  }
+
+  50% {
+    width: 30%;
+  }
+
+  75% {
+    width: 45%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@-o-keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  25% {
+    width: 15%;
+  }
+
+  50% {
+    width: 30%;
+  }
+
+  75% {
+    width: 45%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  25% {
+    width: 15%;
+  }
+
+  50% {
+    width: 30%;
+  }
+
+  75% {
+    width: 45%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+#butterfly-pull-img {
+  width: 150px;
+  height: 200px;
+}
+
+#vincii-wish-txt-p {
+  text-align: center;
+  font-family: "Bubblegum Sans", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300px;
+  line-height: 33px;
+  letter-spacing: 2px;
+}
+
+#wishpage4-click-me-btn {
+  width: 150px;
+  padding: 10px;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  background-color: #d6336c;
+  color: #fff;
+  border-radius: 32px 0 25px 0;
+  border: none;
+  box-shadow: 0 0 20px #d6336c;
+  position: absolute;
+  top: 80%;
+  right: 18%;
+  cursor: pointer;
+  display: none;
+}
+
+#wishpage4-click-me-btn:hover {
+  width: 160px;
+  padding: 13px;
+  font-size: 26px;
+  transition: 0.3s;
+}
