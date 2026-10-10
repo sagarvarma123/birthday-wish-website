@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="birthday wish website, birthday surprise website, personalized birthday website, happy birthday wishes, online birthday surprise"
+    />
+    <meta
+      name="description"
+      content="A beautiful and simple birthday wish website made to make someone’s special day more memorable. Send heartfelt birthday wishes, sweet messages, beautiful memories, and a special surprise to your loved ones."
+    />
+    <meta name="author" content="Sagar Varma" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday – A Special Birthday Wish</title>
+    <link rel="icon" href="image/title-pic.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <noscript>
+      <h1 id="js-on">Please enable Javascript in your Browser.</h1>
+
+      <style>
+        #container {
+          display: none;
+        }
+
+        #js-on {
+          font-family: sans-serif;
+          font-size: 60px;
+          color: red;
+          text-align: center;
+          margin-top: 50px;
+          text-transform: uppercase;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <div id="container">
+      <!--when yes button click -->
+      <div id="yes">
+        <p id="txt">
+          <span id="a"> A Special</span> <span id="b">Gift Awaits</span>
+          <span id="c">You span —</span> <span id="d">Please </span>
+          <span id="e">Accept It ❤️</span>
+        </p>
+
+        <div id="kis-pic">
+          <img src="image/heart-hearts.gif" alt="heart-image" id="kis-img" />
+        </div>
+
+        <div id="btn-box">
+          <button id="yes-btn">YES</button>
+          <button id="no-btn">NO</button>
+        </div>
+      </div>
+
+      <!--when no button click -->
+
+      <div id="no">
+        <p id="txt">
+          <span id="a">Why did</span> <span id="b">you click</span>
+          <span id="c">the</span> <span id="d">NO</span>
+          <span id="e">button? 🥺❤️</span>
+        </p>
+
+        <div id="cry-pic">
+          <img src="image/pencry.gif" alt="heart-image" id="cry-img" />
+        </div>
+        <div id="no-try-btn">
+          <button id="try-again-btn" onclick="location.reload()">
+            Try Again <i class="fa-solid fa-rotate" id="try-again-pic"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- stop code on mobile screen -->
+
+    <div id="mobile-msg">
+      <h2 id="mobile-msg-head">Oops! Small Screen Detected 💻</h2>
+
+      <p id="alert-msg1">
+        Please open this website on a laptop or PC with a screen width greater
+        than 1024px. 💻❤️
+      </p>
+
+      <p id="alert-msg2">For the best experience, use a larger screen. ❤️</p>
+
+      <a
+        href="https://sagarvarma123.github.io/sagar-varma-portfolio/"
+        id="sagar-link"
+      >
+        Designed & Developed by💗 — Sagar Varma
+      </a>
+    </div>
+
+    <div id="net-notice">
+      <p id="net-alert-txt">
+        No Internet Connection. <i class="fas fa-solid fa-globe"></i>
+        <br />Please check your internet connection and try again.
+      </p>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

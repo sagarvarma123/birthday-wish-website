@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#yes {
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+  background: #4284db;
+  background: linear-gradient(
+    90deg,
+    rgba(66, 132, 219, 0.2) 1%,
+    rgba(41, 234, 196, 0.19) 100%
+  );
+}
+
+#no {
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+  background: #4284db;
+  background: linear-gradient(
+    90deg,
+    rgba(66, 132, 219, 0.2) 1%,
+    rgba(41, 234, 196, 0.19) 100%
+  );
+  display: none;
+}
+
+#txt {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#txt span {
+  display: inline-block;
+  transform: translateY(1deg);
+  vertical-align: middle;
+}
+
+#txt #a {
+  transform: rotate(-3deg);
+}
+
+#txt #b {
+  transform: rotate(-2deg);
+  margin-top: -17px;
+}
+
+#txt #c {
+  transform: rotate(0deg);
+  margin-top: -20px;
+}
+
+#txt #d {
+  transform: rotate(3deg);
+  margin-top: -16px;
+}
+
+#txt #e {
+  transform: rotate(5deg);
+  margin-top: 13px;
+}
+
+#kis-pic {
+  width: 20%;
+  height: 250px;
+  margin: 50px auto;
+}
+
+#cry-pic {
+  width: 25%;
+  height: 350px;
+  margin: 50px auto;
+}
+
+#kis-img,
+#cry-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+#btn-box,
+#no-try-btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 170px;
+  position: relative;
+}
+
+#yes-btn,
+#no-btn {
+  width: 200px;
+  padding: 10px;
+  margin: 30px;
+  background: #e83e9f;
+  border: none;
+  border-radius: 10px;
+  color: #fff3b0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+
+/* #yes-btn {
+  left: 30%;
+}
+
+#no-btn {
+  right: 38%;
+} */
+
+#yes-btn:hover {
+  width: 220px;
+  /* border: 3px solid green; */
+  padding: 13px;
+  font-size: 28px;
+  box-shadow: 0 0 25px rgb(10, 202, 10);
+  background-color: rgb(10, 202, 10);
+  transition: 0.3s;
+}
+
+#no-btn:hover {
+  width: 220px;
+  /* border: 3px solid red; */
+  padding: 13px;
+  font-size: 28px;
+  box-shadow: 0 0 25px rgb(228, 15, 15);
+  background-color: rgb(228, 15, 15);
+  transition: 0.3s;
+}
+
+#try-again-btn {
+  width: 200px;
+  background: #e83e9f;
+  padding: 10px;
+  margin-top: -25px;
+  border: none;
+  border-radius: 20px;
+  color: #fff3b0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#try-again-btn:hover {
+  width: 220px;
+  padding: 13px;
+  background: #6c63ff;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+/* net notice */
+
+#net-notice {
+  width: 100%;
+  height: auto;
+  margin: 200px auto;
+  display: none;
+}
+
+#net-alert-txt {
+  font-family: sans-serif;
+  color: #000;
+  font-size: 38px;
+  text-align: center;
+}
+/* end net notice code */
+
+/* mobile msg */
+
+/* Hide mobile message on laptop and PC */
+#mobile-msg {
+  display: none;
+}
+
+/* Show message on screens 1024px or smaller */
+@media screen and (max-width: 1024px) {
+  body > * {
+    display: none !important;
+  }
+
+  body > #mobile-msg {
+    display: flex !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 25px;
+    background: linear-gradient(135deg, #dbeafe, #e9d5ff, #fce7f3);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    z-index: 999999;
+  }
+
+  #mobile-msg-head {
+    color: #4338ca;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  #alert-msg1 {
+    color: #374151;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  #alert-msg2 {
+    color: #7c3aed;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  #sagar-link {
+    display: inline-block;
+    margin-top: 25px;
+    color: #6c63ff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+
+  #sagar-link:hover {
+    color: #4338ca;
+    text-decoration: underline;
+    transform: translateY(-2px);
+  }
+}

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* net notice */
+
+#net-notice {
+  width: 100%;
+  height: auto;
+  margin: 200px auto;
+  display: none;
+}
+
+#net-alert-txt {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+/* end net notice code */
+
+#container {
+  width: 100%;
+  height: auto;
+  background-image: url("../../image/butterflies-bgg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#wish-txt-animation-box {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+#wish-txt-animation {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 35px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #d6336c;
+}
+
+#wish-gif {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#giff1,
+#giff3 {
+  width: auto;
+  height: auto;
+}
+
+#giff2 {
+  width: 25%;
+  height: 500px;
+  box-shadow: 0 0 25px red;
+  background-image: url("../../image/bd-grl3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 15px 0 15px 0;
+  border: 3px groove red;
+  cursor: not-allowed;
+  filter: brightness(80%);
+  display: none;
+}
+
+#click-me-btn {
+  width: 150px;
+  padding: 10px;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  background-color: #d6336c;
+  color: #fff;
+  border-radius: 32px 0 25px 0;
+  border: none;
+  box-shadow: 0 0 20px #d6336c;
+  position: absolute;
+  top: 47%;
+  right: 25%;
+  cursor: pointer;
+  display: none;
+}
+
+#click-me-btn:hover {
+  width: 160px;
+  padding: 13px;
+  font-size: 26px;
+  transition: 0.3s;
+}
